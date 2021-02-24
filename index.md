@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## *Lachlan Wotherspoon, Akansel Cosgun, Dana Kulic*
 
-You can use the [editor on GitHub](https://github.com/lachwot/lachwot.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+`You can use the [editor on GitHub](https://github.com/lachwot/lachwot.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.`
+
+Welcome to the main page for the Monash Tidy Tabletops Dataset. This dataset was developed by [Lachlan Wotherspoon](https://github.com/lachwot) as a part of the 2020-2021 Summer Research Program at Monash University.
+
+The dataset is currently being hosted here and is available for download:
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
