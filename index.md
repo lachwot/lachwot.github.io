@@ -9,9 +9,14 @@ The dataset is currently being hosted on the Monash Bridges platform and is avai
 ### The Dataset
 This dataset contains a total of 6000 pairs of RGB color images, of 10 tabletop objects arranged in random positions. Each pair of scenes contains either 2,3,4 or 5 objects of random classes. Between the pairs of scenes the pose of a single object is changed while the rest remain in the same positions. The dataset generator was produced using the [PyRep](https://github.com/stepjam/PyRep) API's for the [CoppeliaSim](https://www.coppeliarobotics.com/) robotics simulator.
 
-![Example Scene 1](https://raw.githubusercontent.com/lachwot/lachwot.github.io/main/pair_5_31_1_scene.jpg)
+![Example Scene 1](https://raw.githubusercontent.com/lachwot/lachwot.github.io/main/pair_5_31_1_scene.jpg) | ![Example Scene 2](https://raw.githubusercontent.com/lachwot/lachwot.github.io/main/pair_5_31_2_scene.jpg)
 
-The aim of the dataset was to provide a stepping stone into the currently unexplored field of robotic object rearrangement (we've called it the "tidy up problem"). Most algorithms require both training data and validation data in order to gague and measure their performance. Each of the pairs of scenes has been given user ratings as to which of the two scenes they believe is tidier than the other, and each have metadata files relevant to the individual scenes. These ratings were the result of an [Amazon Mechanical Turk](https://www.mturk.com/) crowdsourcing survey involving all scenes in the dataset.
+The aim of the dataset is to provide a stepping stone into the currently unexplored field of robotic object rearrangement (we've called it the "tidy up problem"). Most algorithms require both training data and validation data in order to gague and measure their performance. Each of the pairs of scenes has been given user ratings as to which of the two scenes they believe is tidier than the other, and each have metadata files relevant to the individual scenes. These ratings were the result of an [Amazon Mechanical Turk](https://www.mturk.com/) crowdsourcing survey involving all scenes in the dataset.
+
+---
+# How can I download and use this dataset?
+As mentioned earlier the dataset is available for public download from the Monash Bridges Platform: (To be added)
+
 
 
 ### Markdown
