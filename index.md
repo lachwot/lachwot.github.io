@@ -1,12 +1,18 @@
-## *Lachlan Wotherspoon, Akansel Cosgun, Dana Kulic*
+## *Lachlan Wotherspoon, Akansel Cosgun and Dana Kulic*
 
 You can use the [editor on GitHub](https://github.com/lachwot/lachwot.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Welcome to the main page for the Monash Tidy Tabletops Dataset. This dataset was developed by [Lachlan Wotherspoon](https://github.com/lachwot) as a part of the 2020-2021 Summer Research Program at Monash University.
 
-The dataset is currently being hosted here and is available for download [here](https://google.com)
+The dataset is currently being hosted on the Monash Bridges platform and is available for download [here](https://google.com)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### The Dataset
+This dataset contains a total of 6000 pairs of RGB color images, of 10 tabletop objects arranged in random positions. Each pair of scenes contains either 2,3,4 or 5 objects of random classes. Between the pairs of scenes the pose of a single object is changed while the rest remain in the same positions. The dataset generator was produced using the [PyRep](https://github.com/stepjam/PyRep) API's for the [CoppeliaSim](https://www.coppeliarobotics.com/) robotics simulator.
+
+![Example Scene 1]
+
+The aim of the dataset was to provide a stepping stone into the currently unexplored field of robotic object rearrangement (we've called it the "tidy up problem"). Most algorithms require both training data and validation data in order to gague and measure their performance. Each of the pairs of scenes has been given user ratings as to which of the two scenes they believe is tidier than the other, and each have metadata files relevant to the individual scenes. These ratings were the result of an [Amazon Mechanical Turk](https://www.mturk.com/) crowdsourcing survey involving all scenes in the dataset.
+
 
 ### Markdown
 
