@@ -20,12 +20,14 @@ As mentioned earlier the dataset is available for public download from the Monas
 Under the root of the folder, the structure should be as follows (Add structure in here)
 
 ### Using the datset
-To regenerate scenes and perform data analysis, you can use the `scene_parser` python file.
+To perform data analysis, you can use the `scene_parser` python file.
 This file assumes the default directory structure (from the Monash Bridges download), so be sure to avoid changing that. 
-The `scene_parser` file allows you to read the metadata files, and stores each of those in an array. The data availiable is as follows, per object (each element of an array will have these fields):
-`class`: The class of the object, this will match one of the names of the objects in the object set.
-`position`: The 3DOF XYZ position of the object.
-`orientation`: The 3DOF Roll, Pitch, Yaw of the object.
+The `scene_parser` file allows you to read the metadata files. Per object in each scene, the data is as follows:
+- `class`: The class of the object, this will match one of the names of the objects in the object set.
+- `position`: The 3DOF XYZ position of the object.
+- `orientation`: The 3DOF Roll, Pitch, Yaw of the object.  
+
+By default, this file will loop through each individual scenes (in the process looping through the _object count_,_pair number_, _scene number_ and all objects within the given scene. This can be modified to your needs. The crucial components are knowing the structure of the JSON object that is parsed from the `*_meta.json` files.
 
 
 
